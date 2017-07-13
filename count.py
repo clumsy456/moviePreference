@@ -35,6 +35,11 @@ for movieType in typeDict:
 	sta = typeDict[movieType]
 	if sta[2] == 'inf':
 		ans = 0
+	elif sta[2] == 0:
+		if average > 0:
+			ans = 1
+		else:
+			ans = -1
 	else:
 		struct = sta[0]**0.5 * sta[1] / sta[2]
 		if abs(struct) > - t.ppf(alpha/2, sta[0]-1):
