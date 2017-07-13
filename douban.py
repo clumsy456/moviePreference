@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-usr = '126004318'
+usrID = ''
 
 def crawl(url):
 	session = requests.Session()
@@ -31,7 +31,7 @@ num = 0
 
 try:
 	while True:
-		url = 'https://movie.douban.com/people/'+usr+'/collect?start=%d' % num
+		url = 'https://movie.douban.com/people/'+usrID+'/collect?start=%d'%num
 		bsObj = crawl(url)
 		movies = bsObj.find('div', {'class': 'grid-view'}). \
 			findAll('div', {'class': 'item'})
