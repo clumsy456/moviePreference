@@ -47,7 +47,7 @@ try:
 					+ '\t' + '\t'.join(movieTypes)
 				print(movieInfoStr)
 				movieList.append(movieInfoStr)
-			num += 150
+			num += 15
 except Exception as e:
 	print(e)
 finally:
