@@ -1,6 +1,6 @@
 # moviePreference
 ## introduction
-in the website of [DOUBAN MOVIE](https://movie.douban.com), one can determin whether he/she prefers certain types of movies, according to the score given by him/her, the total score of the movie, and the type of the movie. 
+In the website of [DOUBAN MOVIE](https://movie.douban.com), one can determin whether he/she prefers certain types of movies, according to the score given by him/her, the total score of the movie, and the type of the movie. 
 
 ## 介绍
 在[豆瓣电影](https://movie.douban.com)中，根据用户看过电影的评分和该电影的总评分，以及该电影所属类型，判断用户是否存在对某类型电影的偏好或偏恶。
