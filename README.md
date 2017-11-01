@@ -1,5 +1,5 @@
 # moviePreference
-## introduction
+## Introduction
 In the website of [DOUBAN MOVIE](https://movie.douban.com), one can determin whether he/she prefers certain types of movies, according to the score given by him/her, the total score of the movie, and the type of the movie. 
 
 ## 介绍
